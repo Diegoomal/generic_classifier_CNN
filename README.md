@@ -1,4 +1,4 @@
-# Generic Classifier CNN
+# Generic Classifier Image (CNN)
 
 - **docker**
 - **python**
