@@ -16,7 +16,7 @@ from util import (read_image, reset_seeds,
                   get_object_from_metadata)
 
 
-class GenericClassifierCNN:
+class GenericClassifierImageCNN:
 
 
   def __init__(self, path_dataset='../dataset'):

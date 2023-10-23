@@ -14,11 +14,11 @@ Create the dataset where each folder in the directory will represent a class of 
 ### Project compile
 
  ```
-docker image build -t img_gccnn_app .
+docker image build -t img_gcicnn .
 ```
 
 ### Run project
 
  ```
-docker run --name container_gccnn_app --gpus all img_gccnn_app
+docker run --name container_gcicnn --gpus all img_gcicnn
 ```
