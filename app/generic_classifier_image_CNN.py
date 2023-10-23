@@ -159,7 +159,8 @@ class GenericClassifierImageCNN:
     n_neurons_out, list_train_data_X, list_train_data_y = self.create_train_data()
     model = self.create_model(n_neurons_out)
     hist = self.train_model(model, list_train_data_X, list_train_data_y)
-    model.save('trained_model.h5')
+    # model.save('trained_model.h5')
+    model.save('trained_model.keras')
     return hist, model
 
 

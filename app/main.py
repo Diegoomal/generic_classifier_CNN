@@ -14,5 +14,11 @@ if __name__ == "__main__":
     hist, model = gci_cnn.run_train()
 
     gci_cnn.predict(model=model, path_test='/tests/', filename='0.jpg')
-    gci_cnn.predict(model=model, path_test='/tests/', filename='1.png')
+    gci_cnn.predict(model=model, path_test='/tests/', filename='1.jpg')
     gci_cnn.predict(model=model, path_test='/tests/', filename='2.jpg')
+    gci_cnn.predict(model=model, path_test='/tests/', filename='3.jpg')
+    gci_cnn.predict(model=model, path_test='/tests/', filename='4.jpg')
+    gci_cnn.predict(model=model, path_test='/tests/', filename='5.jpg')
+    gci_cnn.predict(model=model, path_test='/tests/', filename='6.jpg')
+    gci_cnn.predict(model=model, path_test='/tests/', filename='7.jpg')
+    gci_cnn.predict(model=model, path_test='/tests/', filename='8.jpg')
