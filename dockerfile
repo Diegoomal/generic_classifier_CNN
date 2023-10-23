@@ -1,7 +1,3 @@
-#
-# link: https://www.run.ai/guides/tensorflow/tensorflow-with-docker
-#
-
 FROM tensorflow/tensorflow:latest-gpu
 
 # Needed for openGL(open-cv)
